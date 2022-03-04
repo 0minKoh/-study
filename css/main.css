@@ -117,10 +117,20 @@ h3 {
   display: block;
   padding: 43px 10px;
   color: #FFFCFC;
+  transition: 1s;
+}
+
+.header .menu .nav-item:hover {
+  color: #FF00CC;
 }
 
 .header .menu .nav-item a {
   color: #FFFCFC;
+  transition: 1s;
+}
+
+.header .menu .nav-item a:hover {
+  color: #FF00CC;
 }
 
 .background2 {
@@ -434,8 +444,16 @@ h3 {
   width: 250px;
   height: 100px;
   background: transparent;
-  border: 1px solid #FFFCFC;
+  border: 1px solid #FF17CC;
+  color: #FF17CC;
   border-radius: 50px;
+  transition: .5s;
+}
+
+.background3 .btn:hover {
+  background-color: #FF17CC;
+  color: #FFF;
+  text-decoration: underline;
 }
 
 .background3 .btn .F {
@@ -444,6 +462,7 @@ h3 {
   font-size: 30px;
   left: 23%;
   top: 27%;
+  text-decoration: inherit;
 }
 
 .background3 .app {
