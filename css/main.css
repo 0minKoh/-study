@@ -1,0 +1,700 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  color: #FFFCFC;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: 'Segoe Ui', 'sans-serif';
+}
+
+.background1 {
+  position: relative;
+  width: 100vw;
+  height: 1443px;
+  background: linear-gradient(to right, #4C4CE6, #FF00CC);
+  overflow: hidden;
+}
+
+.background1 .rectangle1 {
+  position: absolute;
+  width: 103vw;
+  height: 36vh;
+  top: 34vh;
+  left: -8vw;
+  background: linear-gradient(to right, #2C05F0, #B200FF);
+  transform: rotate(-10deg);
+  box-shadow: -8px 28px 19px rgba(0, 0, 0, 21%);
+}
+
+.background1 .rectangle2 {
+  position: absolute;
+  width: 103vw;
+  height: 36vh;
+  top: 42vh;
+  left: 20vw;
+  background: linear-gradient(to right, #5312E8, #B200FF);
+  transform: rotate(50deg);
+  box-shadow: -8px 28px 19px rgba(0, 0, 0, 21%);
+}
+
+.background1 .text-rec {
+  position: absolute;
+  background: transparent;
+  width: 276px;
+  height: 327px;
+  left: 0px;
+  right: 0px;
+  margin: 37.6vh auto;
+  border: 18px solid #FFFCFC;
+}
+
+.background1 .text-rec .text {
+  position: absolute;
+  text-align: center;
+  top: 27.5px;
+  left: 45px;
+  color: #FFFCFC;
+  font-size: 116px;
+  font-weight: 700;
+  line-height: 1.18;
+  font-family: "Segoe Ui", "sans-serif";
+}
+
+.background1 .back-rec1 {
+  position: absolute;
+  background: transparent;
+  width: 28vw;
+  height: 50vh;
+  border: 16px solid rgba(255,255,255,21%);
+  left: -5vw;
+  top: 68vh;
+  transform: rotate(25deg);
+}
+
+.background1 .back-rec2 {
+  position: absolute;
+  background: transparent;
+  width: 37vw;
+  height: 65vh;
+  border: 16px solid rgba(255,255,255,21%);
+  left: 80vw;
+  top: 7vh;
+  transform: rotate(25deg);
+}
+
+.header {
+  z-index: 2;
+  width: 1290px;
+  height: 107px;
+  position: fixed;
+  margin: 34px auto;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background: transparent;
+}
+
+h3 {
+  color: #FFFCFC;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 500;
+  left: 57px;
+  top: 35px;
+  bottom: 35px;
+}
+
+.header .menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header .menu .nav-item {
+  font-size: 18px;
+  display: block;
+  padding: 43px 10px;
+  color: #FFFCFC;
+}
+
+.header .menu .nav-item a {
+  color: #FFFCFC;
+}
+
+.background2 {
+  position: relative;
+  width: 100vw;
+  height: 1443px;
+  background: #FFFCFC;
+  overflow: hidden;
+}
+
+.background2 .text-container {
+  position: absolute;
+  margin: 0 auto;
+  left: 0px;
+  right: 0px;
+  top: 8.7vh;
+  width: 680px;
+  height: 130px;
+}
+
+.background2 .text1 {
+  position: absolute;
+  font-size: 45px;
+  color: #424647;
+}
+
+.background2 .text1 span {
+  color: #FF17CC;
+}
+
+.background2 .text2 {
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  color: #8F8F8F;
+  left: 21.5px;
+  bottom: 0px;
+}
+
+.background2 .box-container {
+  position: absolute;
+  width: 1500px;
+  height: 1000px;
+  margin: 0 auto;
+  left: 0px;
+  right: 0px;
+  top: 28%;
+}
+
+.background2 .box-container .el-container1 {
+  position: absolute;
+  left: 0px;
+  top: 70px;
+  width: 30%;
+  height: 43%;
+  background: #FFFCFC;
+  box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+}
+
+/* 컨테이너 사이즈 가로:450px 세로:430px */
+/* 이미지 사이즈: 가로:112.5px 세로:107.5px */
+.background2 .box-container .el-container1 img {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  left: 37.5%;
+  top: 14%;
+}
+
+.background2 .box-container .el-container1 .E{
+  position: absolute;
+  color: #000;
+  font-size: 35px;
+  left: 20%;
+  top: 45%;
+}
+
+.background2 .box-container .el-container1 .Y{
+  position: absolute;
+  color: #747474;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  left: 8%;
+  bottom: 15%;
+}
+
+
+.background2 .box-container .el-container2 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 30%;
+  height: 43%;
+  background: #FFFCFC;
+  box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+}
+
+.background2 .box-container .el-container2 img {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  left: 37.5%;
+  top: 14%;
+}
+
+.background2 .box-container .el-container2 .S {
+  position: absolute;
+  color: #000;
+  font-size: 35px;
+  left: 30%;
+  top: 45%;
+}
+
+.background2 .box-container .el-container2 .Y{
+  position: absolute;
+  color: #747474;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  left: 8%;
+  bottom: 15%;
+}
+
+.background2 .box-container .el-container3 {
+  position: absolute;
+  top: 0px;
+  left: 525px;
+  width: 30%;
+  height: 43%;
+  background: #FFFCFC;
+  box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+}
+
+.background2 .box-container .el-container3 img {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  left: 37.5%;
+  top: 14%;
+}
+
+.background2 .box-container .el-container3 .O {
+  position: absolute;
+  color: #000;
+  font-size: 35px;
+  left: 23%;
+  top: 45%;
+}
+
+.background2 .box-container .el-container3 .Y{
+  position: absolute;
+  color: #747474;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  left: 8%;
+  bottom: 15%;
+}
+
+.background2 .box-container .el-container4 {
+  position: absolute;
+  bottom: 70px;
+  left: 525px;
+  width: 30%;
+  height: 43%;
+  background: #FFFCFC;
+  box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+}
+
+.background2 .box-container .el-container4 img {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  left: 37.5%;
+  top: 14%;
+}
+
+.background2 .box-container .el-container4 .G{
+  position: absolute;
+  color: #000;
+  font-size: 35px;
+  left: 23%;
+  top: 45%;
+}
+
+.background2 .box-container .el-container4 .Y{
+  position: absolute;
+  color: #747474;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  left: 8%;
+  bottom: 15%;
+}
+
+.background2 .box-container .el-container5 {
+  position: absolute;
+  right: 0px;
+  top: 70px;
+  width: 30%;
+  height: 43%;
+  background: #FFFCFC;
+  box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+}
+
+.background2 .box-container .el-container5 img {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  left: 37.5%;
+  top: 14%;
+}
+
+.background2 .box-container .el-container5 .P{
+  position: absolute;
+  color: #000;
+  font-size: 35px;
+  left: 25%;
+  top: 45%;
+}
+
+.background2 .box-container .el-container5 .Y{
+  position: absolute;
+  color: #747474;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  left: 8%;
+  bottom: 15%;
+}
+
+.background2 .box-container .el-container6 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 30%;
+  height: 43%;
+  background: #FFFCFC;
+  box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+}
+
+.background2 .box-container .el-container6 img {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  left: 37.5%;
+  top: 14%;
+}
+
+.background2 .box-container .el-container6 .M{
+  position: absolute;
+  color: #000;
+  font-size: 35px;
+  left: 25%;
+  top: 45%;
+}
+
+.background2 .box-container .el-container6 .Y{
+  position: absolute;
+  color: #747474;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  left: 8%;
+  bottom: 15%;
+}
+
+/* 3페이지 */
+.background3 {
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  height: 1443px;
+  background: #FFFCFC;
+  overflow: hidden;
+}
+
+.background3 .bg {
+  position: absolute;
+  box-shadow: 19px, 29px, 42px;
+}
+
+.background3 .bg-gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(76, 76, 230, 30%), rgba(255, 0, 254, 89%))
+}
+
+.background3 .C {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  left: 30%;
+  top: 32%;
+}
+
+.background3 .S {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 200;
+  left: 30%;
+  top: 44%;
+}
+
+.background3 .btn {
+  position: absolute;
+  left: 30%;
+  top: 56%;
+  width: 250px;
+  height: 100px;
+  background: transparent;
+  border: 1px solid #FFFCFC;
+  border-radius: 50px;
+}
+
+.background3 .btn .F {
+  position: absolute;
+  font-weight: 300;
+  font-size: 30px;
+  left: 23%;
+  top: 27%;
+}
+
+.background3 .app {
+  position: absolute;
+  left: 55%;
+  top: 21%;
+  width: 550px;
+  height: auto;
+}
+
+/* 4페이지 */
+
+.background4 {
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  height: 1443px;
+  background: #FFFCFC;
+  overflow: hidden;
+}
+
+.background4 .app {
+  position: absolute;
+  left: 27%;
+  top: 21%;
+  width: 550px;
+  height: auto;
+}
+
+.background4 .M {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 200;
+  color: #000;
+  left: 48%;
+  top: 30%;
+}
+
+.background4 .T {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 200;
+  left: 48%;
+  top: 42%;
+  color: #8F8F8F;
+}
+
+/* graph wid 22% */
+.background4 .graphback1 {
+  position: absolute;
+  width: 22%;
+  height: 45px;
+  background: #E8E8E8;
+  left: 48%;
+  top: 56%;
+  border-radius: 50px;
+}
+
+.background4 .graphfront1 {
+  position: absolute;
+  width: 85%;
+  height: 45px;
+  background: #FF00CC;
+  border-radius: 50px;
+}
+
+.background4 .graphfront1 span {
+  position: absolute;
+  left: 40%;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.background4 .graphback2 {
+  position: absolute;
+  width: 22%;
+  height: 45px;
+  background: #E8E8E8;
+  left: 48%;
+  top: 61%;
+  border-radius: 50px;
+}
+
+.background4 .graphfront2 {
+  position: absolute;
+  width: 90%;
+  height: 45px;
+  background: #9C43FF;
+  border-radius: 50px;
+}
+
+.background4 .graphfront2 span {
+  position: absolute;
+  left: 38%;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.background5 {
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  height: 1800px;
+  background: #FFFCFC;
+  overflow: hidden;
+}
+
+.background5 .bg {
+  position: absolute;
+  width: 100%;
+  top: -480px;
+  max-height: 100%;
+  min-height: 94%;
+}
+
+.background5 .M {
+  position: absolute;
+  width: 252px;
+  margin: 5% auto;
+  left: 0px;
+  right: 0px;
+  font-weight: 500;
+  font-size: 55px;
+  color: #000;
+}
+
+.background5 .code {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+  top: 15%;
+  width: auto;
+  height: 300px;
+}
+
+.background5 .B {
+  position: absolute;
+  left: 37%;
+  top: 36%;
+  text-align: center;
+  font-size: 30px;
+  color: #8F8F8F;
+  font-weight: 300;
+}
+
+.background5 .picture {
+  position: absolute;
+  margin: 900px auto;
+  left: 0px;
+  right: 0px;
+  width: 435px;
+  height: 83px;
+}
+
+.background5 .picture .face-container {
+  z-index: 1;
+  position: absolute;
+  left: 10%;
+}
+
+.background5 .picture .face {
+  z-index: 2;
+  position: absolute;
+  width: 83px;
+  height: 83px;
+  background: #FFF;
+  border-radius: 100%;
+  box-shadow: 0px 3px 12px rgba(0,0,0,16%);
+}
+
+.background5 .picture .Y {
+  display: block;
+  position: absolute;
+  left: 150px;
+  font-size: 25px;
+  color: #8F8F8F;
+  font-weight: 300;
+}
+
+.background5 .btn {
+  position: absolute;
+  left: 46.5%;
+  bottom: 30%;
+  width: 200px;
+  height: 50px;
+}
+
+.background5 .btn .btn1 {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  background: #FF17CC;
+  border-radius: 100%;
+}
+
+.background5 .btn .btn2 {
+  position: absolute;
+  left: 38%;
+  top: -5%;
+  width: 21px;
+  height: 21px;
+  border: 3px solid #FF17CC;
+  background: #FFF;
+  border-radius: 100%;
+}
+
+.background5 .btn .btn3 {
+  position: absolute;
+  left: 80%;
+  width: 21px;
+  height: 21px;
+  background: #FF17CC;
+  border-radius: 100%;
+}
+
+.background5 .oap {
+  position: absolute;
+  left: 35%;
+  top: 77%;
+  width: 28%;
+  height: 20%;
+}
+
+.background5 .O {
+  position: absolute;
+  left: 20%;
+  top: 0%;
+  font-size: 55px;
+  font-weight: 400px;
+  color: #000;
+}
+
+.background5 .oap .O span {
+  font-weight: 700;
+}
+
+.background5 .oap .B {
+  position: absolute;
+  left: 13%;
+  top: 30%;
+  font-size: 25px;
+  color: #8F8F8F;
+  font-weight: 400;
+}
+
+.background5 .oap .ui-ux {
+  position: absolute;
+  bottom: 15%;
+  left: 31%;
+  font-size: 25px;
+  font-weight: 300;
+  color: #FF17CC;
+}
