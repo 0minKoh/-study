@@ -63,6 +63,7 @@ body {
   font-weight: 700;
   line-height: 1.18;
   font-family: "Segoe Ui", "sans-serif";
+  transition: 1s;
 }
 
 .background1 .back-rec1 {
@@ -107,6 +108,12 @@ h3 {
   left: 57px;
   top: 35px;
   bottom: 35px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+h3:hover {
+  color: #FF00CC;
 }
 
 .header .menu {
@@ -120,6 +127,7 @@ h3 {
   padding: 43px 10px;
   color: #FFFCFC;
   transition: 1s;
+  cursor: pointer;
 }
 
 .header .menu .nav-item:hover {
@@ -492,6 +500,7 @@ h3 {
   color: #FF17CC;
   border-radius: 50px;
   transition: .5s;
+  cursor: pointer;
 }
 
 .background3 .btn:hover {
@@ -771,7 +780,7 @@ h3 {
 .background5 .project .text-container {
   display: flex;
   justify-content: center;
-  width: 10%;
+  width: 450px;
 }
 
 .background5 .project .text-container .text {
@@ -779,19 +788,10 @@ h3 {
   font-size: 25px;
   text-align: center;
   color: #FF17CC;
+  cursor: pointer;
 }
 
 .background5 .project .text-container .text:hover {
   text-decoration: underline;
 }
 
-.background5 .ui-ux {
-  position: absolute;
-  text-align: center;
-  bottom: 5%;
-  left: 0px;
-  right: 0px;
-  font-size: 25px;
-  font-weight: 300;
-  color: #FF17CC;
-}
