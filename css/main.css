@@ -47,7 +47,9 @@ body {
   height: 327px;
   left: 0px;
   right: 0px;
-  margin: 37.6vh auto;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
   border: 18px solid #FFFCFC;
 }
 
@@ -193,8 +195,7 @@ h3 {
 
 .background2 .box-container .el-container1:hover {
   z-index: 3;
-  width: 35%;
-  height: 48%;
+  transform: scale(1.3);
 }
 
 /* 컨테이너 사이즈 가로:450px 세로:430px */
@@ -240,6 +241,12 @@ h3 {
   height: 43%;
   background: #FFFCFC;
   box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+  transition: 1s;
+}
+
+.background2 .box-container .el-container2:hover {
+  z-index: 3;
+  transform: scale(1.3);
 }
 
 .background2 .box-container .el-container2 img {
@@ -276,6 +283,12 @@ h3 {
   height: 43%;
   background: #FFFCFC;
   box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+  transition: 1s;
+}
+
+.background2 .box-container .el-container3:hover {
+  z-index: 3;
+  transform: scale(1.3);
 }
 
 .background2 .box-container .el-container3 img {
@@ -312,6 +325,12 @@ h3 {
   height: 43%;
   background: #FFFCFC;
   box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+  transition: 1s;
+}
+
+.background2 .box-container .el-container4:hover {
+  z-index: 3;
+  transform: scale(1.3);
 }
 
 .background2 .box-container .el-container4 img {
@@ -348,6 +367,12 @@ h3 {
   height: 43%;
   background: #FFFCFC;
   box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+  transition: 1s;
+}
+
+.background2 .box-container .el-container5:hover {
+  z-index: 3;
+  transform: scale(1.3);
 }
 
 .background2 .box-container .el-container5 img {
@@ -384,6 +409,12 @@ h3 {
   height: 43%;
   background: #FFFCFC;
   box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+  transition: 1s;
+}
+
+.background2 .box-container .el-container6:hover {
+  z-index: 3;
+  transform: scale(1.3);
 }
 
 .background2 .box-container .el-container6 img {
@@ -484,6 +515,11 @@ h3 {
   top: 21%;
   width: 550px;
   height: auto;
+  transition: 1s;
+}
+
+.background3 .app:hover {
+  transform: perspective(700px) rotateY(180deg);
 }
 
 /* 4페이지 */
@@ -503,6 +539,11 @@ h3 {
   top: 21%;
   width: 550px;
   height: auto;
+  transition: 1s;
+}
+
+.background4 .app:hover {
+  transform: perspective(700px) rotateY(180deg);
 }
 
 .background4 .M {
@@ -614,8 +655,10 @@ h3 {
 
 .background5 .B {
   position: absolute;
-  left: 37%;
+  left: 0px;
+  right: 0px;
   top: 36%;
+  margin: 0 auto;
   text-align: center;
   font-size: 30px;
   color: #8F8F8F;
@@ -692,40 +735,62 @@ h3 {
   border-radius: 100%;
 }
 
-.background5 .oap {
-  position: absolute;
-  left: 35%;
-  top: 77%;
-  width: 28%;
-  height: 20%;
-}
-
 .background5 .O {
   position: absolute;
-  left: 20%;
-  top: 0%;
+  width: 100vw;
+  bottom: 15%;
+  text-align: center;
   font-size: 55px;
   font-weight: 400px;
   color: #000;
 }
 
-.background5 .oap .O span {
+.background5 .O span {
   font-weight: 700;
 }
 
-.background5 .oap .B {
+.background5 .B2 {
   position: absolute;
-  left: 13%;
-  top: 30%;
+  text-align: center;
+  width: 100vw;
+  left: 0px;
+  bottom: 10%;
   font-size: 25px;
   color: #8F8F8F;
   font-weight: 400;
 }
 
-.background5 .oap .ui-ux {
+.background5 .project {
   position: absolute;
-  bottom: 15%;
-  left: 31%;
+  display: flex;
+  justify-content: center;
+  bottom: 5%;
+  width: 100vw;
+}
+
+.background5 .project .text-container {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+}
+
+.background5 .project .text-container .text {
+  flex-grow: 1;
+  font-size: 25px;
+  text-align: center;
+  color: #FF17CC;
+}
+
+.background5 .project .text-container .text:hover {
+  text-decoration: underline;
+}
+
+.background5 .ui-ux {
+  position: absolute;
+  text-align: center;
+  bottom: 5%;
+  left: 0px;
+  right: 0px;
   font-size: 25px;
   font-weight: 300;
   color: #FF17CC;
