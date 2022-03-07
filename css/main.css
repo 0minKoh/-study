@@ -116,7 +116,7 @@ h3:hover {
   color: #FF00CC;
 }
 
-.header ul.menu {
+.header .menu {
   display: flex;
   justify-content: flex-end;
   font-size: 18px;
@@ -124,33 +124,45 @@ h3:hover {
 
 .header .menu li {
   position: relative;
+  padding: 43px 20px;
 }
-
-/* header .menu li::before {
-  content: "";
-  background-color: #000;
-  width: 1px;
-  height: 20px;
-  position: absolute;
-  margin: auto;
-  top: 0px;
-  right: 0px;
-} */
 
 .header .menu li a {
   display: block;
   color: #FFFCFC;
   position: relative;
-  padding: 43px 20px;
   transition: color 1s;
 }
+
+.header .menu li::before {
+  position: absolute;
+  content: "";
+  background-color: #E8E8E8;
+  width: 1px;
+  height: 20px;
+  margin: auto;
+  left: 0px;
+}
+
+.header .menu li:first-child:before {
+  display: none;
+}
+
+.header .menu li:nth-child(n+5):before {
+  display: none;
+}
+
+
+
+
+
+
 
 .header .menu li a:hover {
   color: #FF00CC;
 }
 
 .header .menu li span {
-  padding: 43px 20px;
   transition: color 1s;
   cursor: pointer;
 }
