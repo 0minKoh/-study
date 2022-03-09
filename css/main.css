@@ -18,6 +18,10 @@ body {
   overflow: hidden;
 }
 
+.background1 .fade-in {
+  opacity: 0;
+}
+
 .background1 .rectangle1 {
   position: absolute;
   width: 103vw;
@@ -504,6 +508,7 @@ h3:hover {
 
 .background3 .bg {
   position: absolute;
+  width: 100%;
   box-shadow: 19px, 29px, 42px;
 }
 
