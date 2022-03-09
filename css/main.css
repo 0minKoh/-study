@@ -188,7 +188,11 @@ h3:hover {
   overflow: hidden;
 }
 
-.background2 .text-container {
+.background2 .fade-in {
+  opacity: 0;
+}
+
+.background2 .fade-in .text-container {
   position: absolute;
   margin: 0 auto;
   left: 0px;
@@ -217,7 +221,7 @@ h3:hover {
   bottom: 0px;
 }
 
-.background2 .box-container {
+.background2 .fade-in .box-container {
   position: absolute;
   width: 1500px;
   height: 1000px;

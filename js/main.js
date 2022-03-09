@@ -22,3 +22,18 @@ window.addEventListener('scroll', _.throttle(function () {
     })
   }
 }, 300))
+
+const fadeEls = document.querySelectorAll('.background2 .fade-in')
+console.log(fadeEls)
+// forEach(함수) - index 실행 순서
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 500) {
+    fadeEls.forEach(function (fadeEl, index) {
+      gsap.to(fadeEl, 1, {
+        delay: (index + 1) * .7,
+        opacity: 1
+      })
+      console.log('페이드인')
+    })
+  }
+})
